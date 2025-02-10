@@ -15,7 +15,7 @@ interface IAccount {
 
 const Dashboard = async () => {
   const accounts: IAccount[] = await getUsersAccount();
-  console.log(accounts);
+  // console.log(accounts);
 
   return (
     <div className="px-5 ">
